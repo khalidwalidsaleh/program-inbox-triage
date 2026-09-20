@@ -1,0 +1,35 @@
+msg_id,from,subject,body,TRUE_category,TRUE_urgency,TRUE_route,edge_case_note
+  M01,layla.hassan@marsahospitality.example,Question about eligible renovation works,"Dear team,
+
+  We are planning to replace all guest room air conditioning units at Corniche Bay Resort next quarter. Before we go further I would like to confirm whether mechanical replacement of this kind is covered under the incentive, or whether it is treated as routine maintenance.
+
+  Kind regards,
+  Layla Hassan
+Development Manager, Marsa Hospitality Group",ELIGIBILITY_QUERY,NORMAL,Queries,
+  M02,o.rahman@dunesandshoreholdings.example,Do lobby works qualify,"Hello,
+
+  We intend to reconfigure our lobby, which involves removing a non structural partition wall and relaying flooring. Would this fall under the higher tier or the lower tier?
+
+  Thank you,
+  Omar Rahman",ELIGIBILITY_QUERY,NORMAL,Queries,
+  M03,finance@palmcourtsuites.example,Eligibility of a property under mixed ownership,"Good afternoon,
+
+  Palm Court Suites is held through a joint venture, with a 55 percent local partner and a 45 percent overseas partner. Does the ownership structure affect our eligibility, and is there a minimum holding period we should be aware of?
+
+  Regards,
+  Finance Department",ELIGIBILITY_QUERY,NORMAL,Queries,
+  M04,n.alkaabi@seafrontgroup.example,"Threshold question, urgent, board meeting Thursday","Dear colleagues,
+
+    Our board meets on Thursday this week and I need to confirm one point before then. If our total renovation spend comes in slightly below the stated minimum threshold, is there any discretion, or is the threshold absolute?
+
+    I would appreciate a response before Wednesday evening if at all possible.
+
+      Noura Al Kaabi
+      Head of Asset Management, Seafront Group",ELIGIBILITY_QUERY,HIGH,Queries,"Urgent, explicit deadline within 7 days"
+      M05,info@atlasresidences.example,Does phased work count as one project,"Hi,
+
+      We are renovating across three phases over about eighteen months. Is that assessed as a single project against the threshold, or as three separate ones?
+
+      Best,
+Atlas Residences",ELIGIBILITY_QUERY,NORMAL,Queries,
+  
