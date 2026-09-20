@@ -62,9 +62,6 @@ Evaluated on 40 labeled messages (`evaluation/testset_40.csv`), including 16 pla
 
 **The one miss, and what it taught me.** Message M14 has a one-word body ("Attached."). The model labeled it `DOCUMENT_DEFICIENCY` at 0.9 confidence; the gold label is `APPLICATION_SUBMISSION`. Routing still held, because both categories go to the same casework queue. The more important finding is that the confidence gate never fired on this set: the model reported high confidence even on messages written to be ambiguous. Self-reported confidence is not a calibrated probability, so the gate is a backstop. The primary safeguard is structural: routing is designed so that the likeliest confusions land in the same place.
 
-
-**The one miss, and what it taught me.** Message M14 has a one-word body ("Attached."). The model labeled it `DOCUMENT_DEFICIENCY` at 0.9 confidence; the gold label is `APPLICATION_SUBMISSION`. Routing still held, because both categories go to the same casework queue. The more important finding is that the confidence gate never fired on this set: the model reported high confidence even on messages written to be ambiguous. Self-reported confidence is not a calibrated probability, so the gate is a backstop. The primary safeguard is structural: routing is designed so that the likeliest confusions land in the same place.
-
 ## Governance built into the design
 
 - **No automatic sends.** Replies go to staff as drafts for approval.
@@ -79,7 +76,6 @@ Evaluated on 40 labeled messages (`evaluation/testset_40.csv`), including 16 pla
 - **Trust the destination, not the canvas.** Make can show a green run that wrote the wrong thing. Verification came from the sheet rows, the field specifications, and the API error bodies.
 - **Documentation can be wrong.** Make's documentation named the Gmail trigger module incorrectly; the real identifier came from an exported blueprint.
 - **Canvas edits can break wiring invisibly.** One "fix" in the editor silently orphaned 15 module mappings while the canvas still drew them as connected. Scenarios are now built by authoring blueprint JSON and importing it.
-mporting it.
 - **Models change under you.** Gemini 2.5 Flash closed to new projects mid-build. The migration to Gemini 3.6 Flash rejected a thinking-budget setting and deprecated temperature controls, so repeatability now lives in the prompt contract rather than in sampling parameters.
 - **Platform cost dominates model cost.** At this volume, Make operations cost far more than Gemini tokens, which changes where optimization effort should go.
 
