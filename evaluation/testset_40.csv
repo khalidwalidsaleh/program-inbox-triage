@@ -1,35 +1,213 @@
 msg_id,from,subject,body,TRUE_category,TRUE_urgency,TRUE_route,edge_case_note
-  M01,layla.hassan@marsahospitality.example,Question about eligible renovation works,"Dear team,
+M01,layla.hassan@marsahospitality.example,Question about eligible renovation works,"Dear team,
 
-  We are planning to replace all guest room air conditioning units at Corniche Bay Resort next quarter. Before we go further I would like to confirm whether mechanical replacement of this kind is covered under the incentive, or whether it is treated as routine maintenance.
+We are planning to replace all guest room air conditioning units at Corniche Bay Resort next quarter. Before we go further I would like to confirm whether mechanical replacement of this kind is covered under the incentive, or whether it is treated as routine maintenance.
 
-  Kind regards,
-  Layla Hassan
+Kind regards,
+Layla Hassan
 Development Manager, Marsa Hospitality Group",ELIGIBILITY_QUERY,NORMAL,Queries,
-  M02,o.rahman@dunesandshoreholdings.example,Do lobby works qualify,"Hello,
+M02,o.rahman@dunesandshoreholdings.example,Do lobby works qualify,"Hello,
 
-  We intend to reconfigure our lobby, which involves removing a non structural partition wall and relaying flooring. Would this fall under the higher tier or the lower tier?
+We intend to reconfigure our lobby, which involves removing a non structural partition wall and relaying flooring. Would this fall under the higher tier or the lower tier?
 
-  Thank you,
-  Omar Rahman",ELIGIBILITY_QUERY,NORMAL,Queries,
-  M03,finance@palmcourtsuites.example,Eligibility of a property under mixed ownership,"Good afternoon,
+Thank you,
+Omar Rahman",ELIGIBILITY_QUERY,NORMAL,Queries,
+M03,finance@palmcourtsuites.example,Eligibility of a property under mixed ownership,"Good afternoon,
 
-  Palm Court Suites is held through a joint venture, with a 55 percent local partner and a 45 percent overseas partner. Does the ownership structure affect our eligibility, and is there a minimum holding period we should be aware of?
+Palm Court Suites is held through a joint venture, with a 55 percent local partner and a 45 percent overseas partner. Does the ownership structure affect our eligibility, and is there a minimum holding period we should be aware of?
 
-  Regards,
-  Finance Department",ELIGIBILITY_QUERY,NORMAL,Queries,
-  M04,n.alkaabi@seafrontgroup.example,"Threshold question, urgent, board meeting Thursday","Dear colleagues,
+Regards,
+Finance Department",ELIGIBILITY_QUERY,NORMAL,Queries,
+M04,n.alkaabi@seafrontgroup.example,"Threshold question, urgent, board meeting Thursday","Dear colleagues,
 
-    Our board meets on Thursday this week and I need to confirm one point before then. If our total renovation spend comes in slightly below the stated minimum threshold, is there any discretion, or is the threshold absolute?
+Our board meets on Thursday this week and I need to confirm one point before then. If our total renovation spend comes in slightly below the stated minimum threshold, is there any discretion, or is the threshold absolute?
 
-    I would appreciate a response before Wednesday evening if at all possible.
+I would appreciate a response before Wednesday evening if at all possible.
 
-      Noura Al Kaabi
-      Head of Asset Management, Seafront Group",ELIGIBILITY_QUERY,HIGH,Queries,"Urgent, explicit deadline within 7 days"
-      M05,info@atlasresidences.example,Does phased work count as one project,"Hi,
+Noura Al Kaabi
+Head of Asset Management, Seafront Group",ELIGIBILITY_QUERY,HIGH,Queries,"Urgent, explicit deadline within 7 days"
+M05,info@atlasresidences.example,Does phased work count as one project,"Hi,
 
-      We are renovating across three phases over about eighteen months. Is that assessed as a single project against the threshold, or as three separate ones?
+We are renovating across three phases over about eighteen months. Is that assessed as a single project against the threshold, or as three separate ones?
 
-      Best,
+Best,
 Atlas Residences",ELIGIBILITY_QUERY,NORMAL,Queries,
-  
+M06,sales@brightspaceinteriors.example,Helping our clients access the incentive programme,"Dear Sir or Madam,
+
+Brightspace Interiors delivers turnkey hotel refurbishment across the region. Several of our clients have asked us about the incentive programme and we would like to understand the eligibility criteria so that we can advise them and structure our proposals accordingly.
+
+We would also welcome the opportunity to be listed as a recommended contractor.
+
+Best regards,
+Sales Team, Brightspace Interiors",OUT_OF_SCOPE,NORMAL,Archive,Vendor pitch disguised as an eligibility query
+M07,y.mansour@harbourviewhotels.example,Clarification on permit requirement,"Dear team,
+
+One of the criteria refers to works requiring a building permit. Our scope includes a new external canopy which our contractor says may or may not need a permit depending on final dimensions. How should we treat this in the application?
+
+Yusuf Mansour",ELIGIBILITY_QUERY,NORMAL,Queries,
+M08,reem@cityedgeproperties.example,Query,"Hi, quick one, does it apply to us? Thanks",ELIGIBILITY_QUERY,NORMAL,Queries,"Very short and vague, should score below the confidence gate"
+M09,a.saeed@northgatetourism.example,Eligibility and also would like to meet,"Dear team,
+
+Two things. First, we would like to know whether replacement of our kitchen extraction system qualifies. Second, if it does, we would like to arrange a meeting with your team in the coming weeks to walk through the application process.
+
+Thank you,
+Ahmed Saeed",ELIGIBILITY_QUERY,NORMAL,Queries,"Multi-intent, primary is the eligibility question, secondary is meeting"
+M10,projects@lagoonbayresorts.example,"Application submission, Lagoon Bay Resort","Dear team,
+
+Please find attached our completed application form and cost build up for the Lagoon Bay Resort refurbishment. Total declared spend is set out in the summary sheet and the scope covers guest rooms, corridors and back of house mechanical works.
+
+We look forward to your confirmation of receipt.
+
+Kind regards,
+Projects Team, Lagoon Bay Resorts",APPLICATION_SUBMISSION,NORMAL,Applications,
+M11,m.tariq@oasisgrandhotel.example,Submitting cost build up for review,"Good morning,
+
+Attached is the cost build up for Oasis Grand Hotel as discussed. The classification we have applied is set out on the cover sheet.
+
+Regards,
+Mohammed Tariq",APPLICATION_SUBMISSION,NORMAL,Applications,
+M12,development@silversandsgroup.example,"New application, two properties","Dear colleagues,
+
+We are submitting applications for two properties under the same ownership. Both packs are attached, each with its own cost breakdown and scope schedule. Please confirm whether these should be assessed jointly or separately.
+
+Silver Sands Group Development",APPLICATION_SUBMISSION,NORMAL,Applications,
+M13,h.almarri@pearlcoasthotels.example,"Application, deadline is Friday","Dear team,
+
+Submitting our application pack for Pearl Coast. I understand the submission window closes this Friday so please confirm receipt as soon as you can.
+
+Hessa Al Marri",APPLICATION_SUBMISSION,HIGH,Applications,"Urgent, deadline within 7 days"
+M14,office@ridgelinehospitality.example,Documents,Attached.,APPLICATION_SUBMISSION,NORMAL,Applications,"Extremely short, ambiguous between submission and deficiency, should fall below the gate"
+M15,k.ibrahim@bluehorizonresorts.example,Resubmission after withdrawal,"Dear team,
+
+We withdrew our application in the previous cycle in order to finalise our contractor appointment. That is now complete and we would like to submit afresh. The full pack is attached and supersedes anything previously provided.
+
+Karim Ibrahim",APPLICATION_SUBMISSION,NORMAL,Applications,
+M16,s.qasimi@marinaterracehotel.example,Application form and supporting schedule,"Hello,
+
+Please find our application and the supporting schedule of works for Marina Terrace Hotel. Happy to provide anything further.
+
+Salem Al Qasimi",APPLICATION_SUBMISSION,NORMAL,Applications,
+M17,f.zayed@crescentbayhotels.example,Following up on APP-2026-0142,"Dear team,
+
+We submitted application APP-2026-0142 about six weeks ago and have not had an update since acknowledgement. Could you let us know where it currently sits in the process?
+
+Fatima Zayed",STATUS_REQUEST,NORMAL,Queries,
+M18,gm@sunsetpointinn.example,Any news,"Hi,
+
+Just checking in on our application. Anything you can share?
+
+Thanks,
+General Manager, Sunset Point Inn",STATUS_REQUEST,NORMAL,Queries,
+M19,r.dsouza@emeraldsandsgroup.example,"Escalation, no response in eight weeks, APP-2026-0098","Dear team,
+
+This is now my fourth email regarding APP-2026-0098 and I have had no substantive response in eight weeks. Our financing arrangement is contingent on the outcome and the lender requires confirmation by the end of next week.
+
+I would be grateful if this could be escalated to whoever is responsible for the programme. If I do not hear back I will have to raise the matter more formally.
+
+Ricardo D Souza
+Chief Financial Officer, Emerald Sands Group",STATUS_REQUEST,HIGH,Queries,"Escalation language plus a deadline, must be caught as HIGH urgency"
+M20,a.hamdan@westquayhotel.example,Status and a request for a call,"Dear team,
+
+Could you update us on the status of our submission from last month. If it is easier to discuss on a call, we are available most afternoons this week or next.
+
+Aisha Hamdan",STATUS_REQUEST,NORMAL,Queries,"Multi-intent, primary is status, secondary is meeting"
+M21,t.nasser@goldendunesresort.example,Confirming you received our pack,"Hello,
+
+We sent our application pack two weeks ago but did not receive an acknowledgement. Could you confirm it arrived and is in the queue?
+
+Tariq Nasser",STATUS_REQUEST,NORMAL,Queries,
+M22,admin@havenshoreshotels.example,"Update request, APP-2026-0177","Good afternoon,
+
+Requesting an update on APP-2026-0177. Our board would like a position ahead of the quarterly review.
+
+Admin, Havenshore Hotels",STATUS_REQUEST,NORMAL,Queries,
+M23,j.fernandes@coralreefsuites.example,Where are we,"Team, where are we with this? It has been a while. J",STATUS_REQUEST,NORMAL,Queries,"Terse, no reference number, should classify but with reduced confidence"
+M24,l.baptista@azurebeachresort.example,Re: Missing documents for APP-2026-0155,"Dear team,
+
+Further to your request, please find attached the ownership certificate and the contractor appointment letter which were missing from our original submission for APP-2026-0155.
+
+Luis Baptista",DOCUMENT_DEFICIENCY,NORMAL,Applications,Reply in an existing thread
+M25,s.khoury@stonebridgehotels.example,Requested cost breakdown attached,"Hello,
+
+As requested, the itemised cost breakdown split between mechanical and finishing works is attached. Apologies for the delay.
+
+Sami Khoury",DOCUMENT_DEFICIENCY,NORMAL,Applications,
+M26,p.mehta@lighthousebayhotel.example,Corrected classification form,"Dear team,
+
+You noted that our declared classification did not match the scope described. We have reviewed with our consultant and are attaching a corrected form.
+
+Priya Mehta",DOCUMENT_DEFICIENCY,NORMAL,Applications,
+M27,d.oconnor@seabreezeproperties.example,"Permit copy, needed before Sunday","Dear team,
+
+Attaching the building permit copy you asked for. I understand you need this before Sunday to keep our file moving, so please confirm it is now complete.
+
+Declan O Connor",DOCUMENT_DEFICIENCY,HIGH,Applications,Deadline within 7 days
+M28,m.haddad@royalgardenshotel.example,Follow up documents,"Please see attached as discussed on the call.
+
+Maya Haddad",DOCUMENT_DEFICIENCY,NORMAL,Applications,"Ambiguous between deficiency and new submission, low confidence expected"
+M29,accounts@viewpointhospitality.example,Signed declaration,"Dear colleagues,
+
+The signed declaration page that was outstanding is attached. All other items were provided in the original submission.
+
+Accounts, Viewpoint Hospitality",DOCUMENT_DEFICIENCY,NORMAL,Applications,
+M30,ceo@northstarhotelsgroup.example,Request for an introductory meeting,"Dear team,
+
+Northstar is considering a significant refurbishment across three properties. Before we commit we would value an introductory meeting with your team to understand the programme and the timelines involved.
+
+We are flexible over the next fortnight.
+
+Chief Executive, Northstar Hotels Group",MEETING_REQUEST,NORMAL,Meetings,
+M31,i.suleiman@dhowbayresorts.example,Site visit request,"Hello,
+
+Would your assessment team be able to visit the property so we can walk the scope on site before we finalise the cost build up?
+
+Ibrahim Suleiman",MEETING_REQUEST,NORMAL,Meetings,
+M32,ea.office@grandmeridianhotels.example,Call next week,"Dear team,
+
+Our Chairman would like a call with the programme lead next week. Wednesday or Thursday morning would suit. Please advise availability.
+
+Executive Office, Grand Meridian Hotels",MEETING_REQUEST,NORMAL,Meetings,
+M33,z.alameri@sandstonehospitality.example,Workshop for our finance team,"Dear colleagues,
+
+Our finance team would benefit from a short session on how the cost build up should be presented. Would you be willing to run a workshop, either at your offices or ours?
+
+Zayed Al Ameri",MEETING_REQUEST,NORMAL,Meetings,
+M34,b.ali@tidewaterhotels.example,Meeting to discuss our rejected application,"Dear team,
+
+Our application was not approved and we would like to understand the reasoning. Could we arrange a meeting to discuss it and understand what would need to change for a future submission?
+
+Bilal Ali",MEETING_REQUEST,NORMAL,Meetings,
+M35,campaigns@hospitalityinsightsmedia.example,Feature your programme in our annual report,"Dear Sir or Madam,
+
+Hospitality Insights Media publishes an annual regional review read by more than forty thousand industry professionals. We would like to offer you a feature placement at a preferential rate.
+
+Our media pack is attached.
+
+Campaigns Team",OUT_OF_SCOPE,NORMAL,Archive,
+M36,hr.recruitment@talentbridgeglobal.example,Executive search partnership,"Dear team,
+
+Talentbridge Global specialises in senior placements across the tourism sector. We would welcome a conversation about supporting your future hiring needs.
+
+Recruitment Team",OUT_OF_SCOPE,NORMAL,Archive,
+M37,guest.relations@theplazacourt.example,Complaint about a hotel stay,"To whom it may concern,
+
+I stayed at a hotel in the city last weekend and the service was unacceptable. I was told to contact the tourism authority. I would like a refund and an apology.
+
+Regards,
+A dissatisfied guest",OUT_OF_SCOPE,NORMAL,Archive,"Wrong department, genuine but not this programme"
+M38,noreply@cloudledgersoftware.example,Your subscription renews in 30 days,"This is an automated notice. Your Cloudledger workspace subscription will renew in 30 days. No action is required.
+
+Cloudledger Billing",OUT_OF_SCOPE,NORMAL,Archive,Automated notification
+M39,partnerships@greencertifyinstitute.example,Sustainability certification for your applicants,"Dear programme team,
+
+We certify hospitality properties against international sustainability standards. We believe your applicants would benefit and would like to discuss a referral arrangement.
+
+Partnerships, GreenCertify Institute",OUT_OF_SCOPE,NORMAL,Archive,"Vendor pitch, adjacent enough to be tempting to misroute"
+M40,a.wahab@crestlinehotels.example,استفسار بخصوص الحوافز / Query regarding incentives,"تحية طيبة،
+
+نود الاستفسار عما اذا كانت اعمال تجديد المسبح والمناطق الخارجية مشمولة بالبرنامج.
+
+Dear team, we would like to ask whether renovation of the swimming pool and outdoor areas is covered by the programme.
+
+مع التحية،
+عبد الوهاب / Abdul Wahab, Crestline Hotels",ELIGIBILITY_QUERY,NORMAL,Queries,"Bilingual Arabic and English, tests language robustness"
