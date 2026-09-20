@@ -88,3 +88,4 @@ Make · Gemini API (Google AI Studio) · Gmail · Google Sheets · JSON Schema
 | Path | Contents |
 |---|---|
 | `evaluation/testset_40.csv` | The 40-message labeled test set with edge-case notes. All senders and organizations are fictional. |
+| `prompts/README.md` | The classifier and reply-drafter prompts, verbatim from the scenario, with design notes. |
